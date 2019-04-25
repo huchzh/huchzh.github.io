@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+}
+/*#262626 Slate
+#3f3f3f Secondhand Grey
+#f5f5f5 Whitish
+#dcdcdc Light grey*/
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.parallax {
+	background-image: url("../img/elonWall.JPG");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content {
+	/*background-color: #cd41f4;*/
+	width: 1440px;
+	height: 900px;
+	padding-top: 15px;
+}
+
+#home-content {
+	padding-top: 15px;
+}
+
+#nav-bar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+  padding: 5px;
+  background-color: #262626;
+}
+
+.navbar-item {
+	padding: 14px 16px;
+	opacity: 0.5;
+	font-size: 17px;
+	color: #f5f5f5; 
+}
+
+.navbar-item:hover {
+	opacity: 1;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#left-navbar {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*background-color: #41f4d0;*/
+}
+
+#right-navbar {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+	/*background-color: #41f488;*/
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  line-height: 2;
+  margin-top: 60px;
+  /*background-color: #8ef441;*/
+	font-size: 30px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*background-color: #f45e41;*/
+}
+
+.faq-container {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*background-color: #7641f4;*/
+}
+
+.faq {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	/*background-color: #f4bb41;*/
+}
+
+.faq:hover .overlay {
+  opacity: 1;
+}
+
+.question {
+  display: block;
+	height: 250px;
+	width: 250px;
+	border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+	height: 250px;
+	width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3f3f3f;
+  border-radius: 10px;
+}
+
+.answer {
+	color: #dcdcdc;
+	height: 250px;
+	width: 250px;
+	/*font-size: 17px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.regular-title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+.moment-container {
+	background-color: #f5f5f5;
+	width: 40%;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.moment-cluster {
+/*	background-color: #7641f4;*/
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.moment {
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	overflow: hidden;
+}
+
+.moment img {
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.image {
+	height: 300px;
+	width: 250px;
+	margin: 3px;
+	border: 3px solid white;
+	box-shadow: 0px 0px 5px;
+}
+
+
+
