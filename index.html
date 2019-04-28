@@ -7,20 +7,13 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
  		
+ 		<div id="sources">
 		<div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 		<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
 		<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
-
-<!-- 		<link rel="stylesheet" type="text/css" href="fullPage.js-master/src/fullpage.css"/>
-
-		<script src="fullPage.js-master/vendors/easings.min.js"></script>
-
-		<script type="text/javascript" src="fullPage.js-master/vendors/scrolloverflow.min.js"></script>
-
-		<script type="text/javascript" src="fullPage.js-master/src/fullpage.js"></script> -->
+		</div>
 
 	</head>
 	<body>
@@ -43,14 +36,11 @@
 			<div id="right-navbar">
 				<div class="navbar-item">
 					<i class="fas fa-portrait"></i>
-					<a href="#contact-content" class="link">Contact</a>
+					<a href="#about-content" class="link">About</a>
 				</div>
 			</div>
 		</div>
 
-		<div id="fullpage">
-
-			<section class="section page">
 				<div class="parallax" class="content" id="home-content">
 					<div class="header">
 						<div id="home-title">Who is Elon?</div>
@@ -61,13 +51,13 @@
 								<div class="faq" id="1">
 									<img src="assets/img/vet.png" class ="question">
 									<div class="overlay">
-										<div class="answer">Answer 1</div>
+										<div class="answer">Adopted from Inland Valley Humane Society</div>
 									</div>
 								</div>
 								<div class="faq" id="2">
 									<img src="assets/img/food.png" class ="question">
 									<div class="overlay">
-										<div class="answer">Answer 1</div>
+										<div class="answer">Used to eat can food, but now only eats dry food. Loves treats!</div>
 									</div>
 								</div>
 							</div>
@@ -75,30 +65,25 @@
 								<div class="faq" id="3">
 									<img src="assets/img/superhero.png" class ="question">
 									<div class="overlay">
-										<div class="answer">Answer 1</div>
+										<div class="answer">Likes to hide in the dark like Batman.</div>
 									</div>
 								</div>
 								<div class="faq" id="4">
 									<img src="assets/img/swords.png" class ="question">
 									<div class="overlay">
-										<div class="answer">Answer 1</div>
+										<div class="answer">His mortal enemy is the vacuum cleaner. He have fought against a fly for 2 consecutive days. Other enemies include spiders and other bugs.</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<section class="section page">
 				<div class="content" id="top-moments-content">
 					<div class="header">
 						<div id="top-moments-title" class="regular-title">Top Moments</div>
 					</div>
 					<div class="container">
-		<!-- 				<div class="lightbox" href="#cat">
-							<img src="assets/img/8.jpg" class ="image">
-						</div> -->
 
 						<div class="moment-container">
 							<div class="moment" id="moment-1">
@@ -126,44 +111,184 @@
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<section class="section page">
+				<div id="lightbox-overlay" class="hidden"></div>
+
+				<div class="lightbox hidden" id="moment-1-description">
+					<img src="assets/img/8.jpg">
+					<div class="caption">First few days after adoption!</div>
+				</div>
+
+				<div class="lightbox hidden" id="moment-2-description">
+					<img src="assets/img/5.jpg">
+					<div class="caption">Fur color in 2016</div>
+				</div>
+
+				<div class="lightbox hidden" id="moment-3-description">
+					<img src="assets/img/7.jpg">
+					<div class="caption">Scratching too much!</div>
+				</div>
+
+				<div class="lightbox hidden" id="moment-4-description">
+					<img src="assets/img/4.jpg">
+					<div class="caption">Fur color in 2017</div>
+				</div>
+
+				<div class="lightbox hidden" id="moment-5-description">
+					<img src="assets/img/6.jpg">
+					<div class="caption">First girlfriend!</div>
+				</div>
+
+				<div class="lightbox hidden" id="moment-6-description">
+					<img src="assets/img/3.jpeg">
+					<div class="caption">Fur color in 2018</div>
+				</div>
+
+
 				<div class="content" id="timeline-content">
 					<div class="header">
 						<div id="timeline-title" class="regular-title">Timeline</div>
 					</div>
-					<div id="timeline-years">LINE</div>
+
+					<div id="timeline">
+						<div class="year" id="year-2016">2016</div>
+						<div class="year" id="year-2017">2017</div>
+						<div class="year" id="year-2018">2018</div>
+
+					</div>
+
 					<div class="container">
-						<div class="moment-cluster">
-							<div class="moment-container">
-								<div class="moment">Moment 1</div>
-								<div class="moment">Moment 2</div>
+						<div id = "all-moments">
+							<div class="moment-cluster" id="cluster-2016">
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2016-1.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2016-5.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2016-2.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2016-6.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2016-3.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2016-7.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2016-4.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2016-8.jpg" class="time-image">
+									</div>
+								</div>
 							</div>
-							<div class="moment-container">
-								<div class="moment">Moment 3</div>
-								<div class="moment">Moment 4</div>
+
+							<div class="moment-cluster hidden" id="cluster-2017">
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2017-1.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2017-5.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2017-2.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2017-6.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2017-3.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2017-7.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2017-4.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2017-8.jpg" class="time-image">
+									</div>
+								</div>
 							</div>
-							<div class="moment-container">
-								<div class="moment">Moment 5</div>
-								<div class="moment">Moment 6</div>
+
+							<div class="moment-cluster hidden" id="cluster-2018">
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2018-1.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2018-5.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2018-2.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2018-6.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2018-3.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2018-7.jpg" class="time-image">
+									</div>
+								</div>
+								<div class="moment-container">
+									<div class="moment">
+										<img src="assets/img/2018-4.jpg" class="time-image">
+									</div>
+									<div class="moment">
+										<img src="assets/img/2018-8.jpg" class="time-image">
+									</div>
+								</div>
 							</div>
-							<div class="moment-container">
-								<div class="moment">Moment 7</div>
-								<div class="moment">Moment 8</div>
-							</div>
+
 						</div>
 					</div>
 				</div>
-			</section>
 
-			<section class="section page">
-				<div class="content" id="contact-content">
+				<div class="content" id="about-content">
 					<div class="header">
-						<div id="contact-title" class="regular-title">Contact</div>
+						<div id="about-title" class="regular-title">About</div>
+					</div>
+
+					<div class="about-container">
+						<div class="info">
+							Hi, nice to meet you! <br />
+							I am Hua Chan and I am a Junior studying <br />
+							Electrical Engineering and Computer Science <br />
+							at UC Berkeley. <br />
+							Whenever I am stressed over my classes,  <br />
+							looking at my cat's pictures cheers me up. <br />
+							That is why I want to share with you the <br />
+							joy that Elon have brought to me. <br />
+							<br />
+							huachanzhuo@berkeley.edu
+						</div>
+						<img src="assets/img/elonFinal.jpg" class="about-image">
 					</div>
 				</div>
-			</section>
 		</div>
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
