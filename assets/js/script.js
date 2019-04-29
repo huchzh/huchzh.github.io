@@ -33,12 +33,15 @@ $(document).ready(function() {
 	function changeYear() {
 		for(var i = 2016; i <= 2018; i++) {
 			var yearItem = "cluster-" + i;
+			var year = "year-" + i;
 			document.getElementById(yearItem).classList.add('hidden');
+			document.getElementById(year).classList.remove('selected');
 		}
 
 		var activeYear = "cluster-" + $(this).attr('id').slice(5,10);
-		console.log(activeYear);
+		var year = $(this).attr('id');
 		document.getElementById(activeYear).classList.remove('hidden');
+		document.getElementById(year).classList.add('selected');
 	}
 
 	document.getElementById('moment-1').onclick = exposeLightbox;
